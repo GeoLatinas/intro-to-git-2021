@@ -101,8 +101,8 @@ usualmente utilizados:
 - [vim](https://www.vim.org/) o [Neovim](https://neovim.io/)
 - [Geany](https://www.geany.org/)
 - [Kate](https://kate-editor.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [Notepad++](https://notepad-plus-plus.org/)
+- [VS Codium](https://vscodium.com/) o [Visual Studio Code](https://code.visualstudio.com/)\*
 - [Sublime](https://www.sublimetext.com/)\*
 - [Atom](https://atom.io/)\*
 
