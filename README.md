@@ -31,19 +31,6 @@ En este taller aprenderemos las bases de lo que es Git y Github. Comprenderás q
 
 
 
-## Configurar nuestra computadora
-
-### Aplicación de Terminal
- Si tienes duda de cómo abrir una terminal en MacOS o Windows, sigue las siguientes [indicaciones](https://www.youtube.com/watch?v=qmtCeFH_ZUs)
-
-### Instalar git
-  Para instalar git sigue las indicaciones de este [enlace](https://carpentries.github.io/workshop-template/#git) en la sección `Setup` sigue las indicaciones de acuerdo al sistema operativo con el cual trabajarás durante el workshop.
-
-### Instalar un editor de texto
-Para instalar git sigue las indicaciones de este [enlace](https://carpentries.github.io/workshop-template/#git) en la sección `TextEditor` sigue las indicaciones de acuerdo al sistema operativo con el cual trabajarás durante el workshop.
-  
-### Crear una cuenta de GitHub
-  En este [video](https://www.youtube.com/watch?v=x31VKqxncxM) podrás ver paso a paso lo que necesitas hacer para crear tu cuenta de Github. No olvides tu nombre de usuario y el correo que utilizaste! Los ocuparemos durante el curso.
 
 ### Registro al taller
   Por último, por favor llena este [formulario](http://bit.ly/Git_Github_GeoLatinas) y recibirás el link de acceso para el taller ¡te esperamos!
