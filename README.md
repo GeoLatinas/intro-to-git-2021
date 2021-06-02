@@ -13,6 +13,7 @@ Cuándo | [Sábado 5 de Junio 2021 de 15:00 a 19:00 GMT](https://www.timeanddate
 Dónde | Zoom (link en el canal de Slack `#coding-group`)
 Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
+Diapositivas | https://geolatinas.github.io/intro-to-git-2021
 
 
 ## Acerca del taller
