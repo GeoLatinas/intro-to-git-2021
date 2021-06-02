@@ -48,21 +48,16 @@ permite realizar muchísimas tareas a través de comandos.
 
 Cada sistema operativo posee su propia aplicación de terminal.
 
-**Windows**
-:   Windows posee una aplicación de terminal que podemos acceder a través de
-    `cmd` en nuestro menú de inicio. Esa terminal no nos será útil para este
-    taller, es por ello que vamos a necesitar instalar una distinta, la cual
+- **Windows**: Windows posee una aplicación de terminal que podemos acceder
+    a través de `cmd` en nuestro menú de inicio. Esa terminal no nos será útil para
+    este taller, es por ello que vamos a necesitar instalar una distinta, la cual
     viene incluida cuando instalemos `git`. Por ende, pasá al siguiente paso.
-
-**MacOS**
-:   MacOS viene por defecto con una aplicación llamada `Terminal` a la cual
-    podemos acceder desde nuestro menú de Aplicaciones. Verifica que la tienes
-    instalada y que puedes abrirla sin problemas.
-
-**Linux**
-:   Las distribuciones de Linux traen una aplicación de terminal preinstalada,
-    aunque su nombre puede diferir dependiendo de qué entorno de escritorio
-    o qué distribución estés usando. Podrás encontrarla en el menú de
+- **MacOS**: MacOS viene por defecto con una aplicación llamada `Terminal`
+    a la cual podemos acceder desde nuestro menú de Aplicaciones. Verifica que la
+    tienes instalada y que puedes abrirla sin problemas.
+- **Linux**: Las distribuciones de Linux traen una aplicación de terminal
+    preinstalada, aunque su nombre puede diferir dependiendo de qué entorno de
+    escritorio o qué distribución estés usando. Podrás encontrarla en el menú de
     aplicaciones bajo el nombre `Emulador de Terminal`, `Terminal de GNOME`
     o `Konsole`.
 
@@ -73,22 +68,19 @@ necesitaremos instalarlo.
 Las instrucciones de instalación varían en función del sistema operativo que
 utilices.
 
-**Windows**
-:   Vamos a instalar GitBash que incluye tanto `git` como una aplicación de
+- **Windows**: Vamos a instalar GitBash que incluye tanto `git` como una aplicación de
     terminal y el shell `bash`. Podrás encontrar [instrucciones detalladas
     realizadas por Software
     Carpentries](https://carpentries.github.io/workshop-template/#shell) sobre
     cómo instalarlo.
 
-**Mac**
-:   Vamos a instalar `git-osx-installer`, que podemos descargar desde acá:
+- **Mac**: Vamos a instalar `git-osx-installer`, que podemos descargar desde acá:
     https://sourceforge.net/projects/git-osx-installer/files/ . Podrás
     encontrar [instrucciones detalladas realizadas por Software
     Carpentries](https://carpentries.github.io/workshop-template/#git) sobre
     cómo instalarlo.
 
-**Linux**
-:   En la mayoría de las distribuciones de Linux podemos instalar `git` mediante
+- **Linux**: En la mayoría de las distribuciones de Linux podemos instalar `git` mediante
     el gestor de paquetes. Si usas Ubuntu, Debian o alguna derivada de ellas,
     podés instalarlo ejecutando el siguiente comando en la terminal: `sudo apt
     install git`. Si usas Fedora, ejecutá `sudo dnf install git`. Y si utilizás
