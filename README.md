@@ -15,6 +15,7 @@ Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
 
 ## ANTES DEL TALLER
+En este taller aprenderemos las bases de lo que es Git y Github. Comprenderás qué es el control de versiones y por qué es importante usarlo. El enfoque del taller es eminentemente práctico, de manera que con cada nuevo tema, los ejercicios en parejas o grupales te permitirán afianzar el conocimiento adquirido y resolver los conflictos más comunes que suelen presentarse.
 
 Asegúrate de completar los siguientes pasos *antes del Sábado 5 de Junio*:
 
@@ -115,7 +116,7 @@ usualmente utilizados:
 Los editores marcados con un asterisco no se encuentran disponibles bajo
 licencias de Software Libre, sino bajo licencias privativas.
 
-### Crearse una cuenta de GitHub
+### Crear una cuenta de GitHub
 
 Por último es necesario que crees una cuenta en [Github](https://github.com) si
 no tienes una. Puedes crear tu cuenta en Github de forma gratuita requiriendo
@@ -124,3 +125,6 @@ información de tu perfil quieres hacer pública. Aquí te dejo un [instructivo
 sobre cómo mantener la dirección de correo electrónico
 privada](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address)
 si lo deseas.
+  
+### Registro al taller
+  Por último, por favor llena este [formulario](http://bit.ly/Git_Github_GeoLatinas) y recibirás el link de acceso para el taller ¡te esperamos!
