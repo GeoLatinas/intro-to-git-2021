@@ -23,6 +23,7 @@
 - **Cuándo:** [Sábado 5 de Junio 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introducci%C3%B3n+a+Git+%7C+Geolatinas&iso=20210605T12&p1=51&ah=5)
 - **Notas colaborativas:** Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 - **Material:**  https://swcarpentry.github.io/git-novice-es
+- **Diapositivas:**  https://geolatinas.github.io/intro-to-git-2021
 
 ---
 
@@ -220,6 +221,63 @@ posible?
 - Podemos usar el identificador del commit en vez de `HEAD`.
 - `git checkout` nos deja _visitar_ commits anteriores.
 - Nunca hay que hacer commits si no estamos en `HEAD`.
+
+---
+
+## Ejercicios
+
+---
+
+## 1. Multiple choice
+
+---
+
+¿Cuál es el output de `cat venus.txt` al final de este conjunto de comandos?
+
+```bash
+cd planets
+nano venus.txt # agrega el siguiente texto: Venus is beautiful and full of love
+git add venus.txt
+nano venus.txt # agrega el siguiente texto: Venus is too hot to be suitable as a base
+git commit -m "Comment on Venus as an unsuitable base"
+git checkout HEAD venus.txt
+cat venus.txt #esto imprimirá el contenido de venus.txt en la pantalla
+```
+
+<ol>
+    <li>
+    <pre><code>Venus is too hot to be suitable as a base
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>Venus is beautiful and full of love
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>Venus is beautiful and full of love
+Venus is too hot to be suitable as a base
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>Error because you have changed venus.txt without committing the changes
+    </code></pre>
+    </li>
+</ol>
+
+---
+
+## 2. Deshacer cambios añadidos al stage area
+
+- `git checkout` puede usarse para restaurar un commit anterior cuando cambios
+  no marcados se han hecho, pero ¿También funcionará para los cambios que se
+  han marcado pero no se han vuelto commit?
+
+- Haz un cambio a `mars.txt`, agrega el cambio y usa `git checkout` para ver si
+  puedes eliminar tu cambio.
+
+---
+
+# Descanso
 
 ---
 
