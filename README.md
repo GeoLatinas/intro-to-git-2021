@@ -24,14 +24,4 @@ Asegúrate de completar los siguientes pasos *antes del Sábado 5 de Junio*:
 4. Crear una cuenta en GitHub
 5. Llenar formulario de registro al taller
 
-Más adelante encontrás instrucciones de cómo realizar estos pasos.
-
-## Acerca del taller
-En este taller aprenderemos las bases de lo que es Git y Github. Comprenderás qué es el control de versiones y por qué es importante usarlo. El enfoque del taller es eminentemente práctico, de manera que con cada nuevo tema, los ejercicios en parejas o grupales te permitirán afianzar el conocimiento adquirido y resolver los conflictos más comunes que suelen presentarse.
-
-
-
-
-### Registro al taller
-  Por último, por favor llena este [formulario](http://bit.ly/Git_Github_GeoLatinas) y recibirás el link de acceso para el taller ¡te esperamos!
-  
+Más adelante encontrás instrucciones de cómo realizar estos pasos. 
