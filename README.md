@@ -9,7 +9,7 @@ Por [Santiago Soler](https://www.santisoler.com/) <sup>1,2</sup> y [Mariana Góm
 
 | Información | |
 | - | ---
-Cuándo | [Sábado 5 de Junio 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introducci%C3%B3n+a+Git+%7C+Geolatinas&iso=20210605T12&p1=51&ah=5)
+Cuándo | [Por confirmar]
 Dónde | Zoom (link en el canal de Slack `#coding-group`)
 Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
