@@ -66,6 +66,7 @@ No es necesario tener experiencia en el uso de la terminal.
 - Repositorios remotos en GitHub
 - Trabajos en colaboración
 - Conflictos
+- Un extra...
 
 </div>
 </div>
@@ -225,6 +226,8 @@ posible?
 
 ---
 
+# Explorando el historial
+
 <img src="images/git-checkout.svg" alt="" style="height: 85vh">
 
 ---
@@ -281,6 +284,8 @@ Por suerte, ha estado usando Git...
 
 ---
 
+## 2. Multiple choice
+
 ¿Cuál es el output de `cat venus.txt` al final de este conjunto de comandos?
 
 ```bash
@@ -326,7 +331,11 @@ Venus is too hot to be suitable as a base
 
 ---
 
-# Ignorando cosas
+# Ignorar archivos
+
+---
+
+# Ignorando archivos
 
 ¿Qué pasa si tenemos archivos que no queremos que Git rastree?
 
@@ -406,9 +415,9 @@ Probemoslo...
 
 ## Comandos de Git
 
-- `git clone [url]` clona un repositorio contenido en GutHub.
-- `git push origin main` envia los cambios hacia el repositorio de GitHub.
-- `git pull` descargar los cambios hechos por el colaborador desde GitHub.
+- `git clone [url]`: Clona un repositorio contenido en GutHub.
+- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
+- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
 
 ---
 
@@ -448,11 +457,11 @@ _Commits pequeños son más fáciles de leer y revisar._
 ## Consejos para trabajos colaborativos 
 
 
-**La resolución de conflictos cuesta tiempo y esfuerzo**,
+**La resolución de conflictos cuesta tiempo y esfuerzo**
 
 ---
 
-### Algunas técnicas para reducir conflictos:
+## Algunas técnicas para reducir conflictos:
 
 * Hacer `pull` con mayor frecuencia, especialmente antes de empezar una nueva tarea.
 * Hacer comentarios mas cortos y concisos
@@ -468,102 +477,86 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 
 ---
 
-No esperes para usarlo ...
-
-lee 
-pregunta 
- y usalo para cualquier proyecto que tengas
+# ¡Vamos por un extra!
 
 ---
 
+# ¿Cómo colaborar si no sos un colaborador directo?
 
+---
 
+# ¿Cómo colaborar?
 
-# Do you want columns?
-
-<div class="container">
-
-<div class="column">
-<img src="images/about.jpg" style="margin-top: 5%; border-radius: 50%; width: 80%;">
-</div>
-
-<div class="col-2">
-<div class="centered">
-
-* Licenciado en Física (UNR)
-* Estudiante de Doctorado en Geofísica (UNSJ)
-* Becario Doctoral de CONICET
-* Desarrollador de [Fatiando a Terra](https://www.fatiando.org)
-* Miembro de [Computer-Oriented Geoscience Lab](https://www.compgeolab.org)
-
-</div>
-</div>
-
+<div class="r-stack">
+<img class="fragment current-visible" src="images/contribute-github-1.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-2.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-3.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-4.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-5.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-6.svg" style="width: 80vw">
 </div>
 
 ---
 
-# You can add fade-in animations
+# Work flow
 
-<div class="container">
-
-<div class="column fragment fade-in">
-
-First element
-
-</div>
-
-<div class="column fragment fade-in">
-
-Second element
-
-</div>
-
-</div>
+<div class="r-stack">
+<img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt="">
+<img class="fragment current-visible" data-fragment-index="0" src="images/git-repo-2.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-3.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-4.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-5.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-6.svg" alt="">
+<img class="fragment" src="images/git-repo-7.svg" alt="">
+</div
 
 ---
 
-## Even on lists
+## Pasos
 
-<ul>
-<li class="fragment fade-in">First element</li>
-<li class="fragment fade-in">Second element</li>
-<li class="fragment fade-in">Third element</li>
-</ul>
-
----
-
-## Highlight current item on list
-
-<ol>
-<li class="fragment highlight-current-blue">First element</li>
-<li class="fragment highlight-current-blue">Second element</li>
-<li class="fragment highlight-current-blue">Third element</li>
-</ol>
-
----
-
-# You can put footnotes
-
-<div class="bottom">
-
-https://www.blog.pythonlibrary.org/2019/04/11/python-used-to-take-photo-of-black-hole/
-
-</div>
+1. Descargamos el repositorio
+    ```bash
+    $ git clone https://github.com/aguspesce/practica_geolatinas
+    ```
+2. Hacemos un Fork desde GitHub
+3. Agregamos el remote de nuestro fork
+    ```bash
+    $ git remote add santisoler https://github.com/santisoler/practica_geolatinas
+    ```
+4. Creamos una nueva rama
+    ```bash
+    $ git switch --create agrega-santi
+    ```
+5. Realizamos cambios y agregamos commits
+    ```bash
+    $ git add .
+    $ git commit
+    ```
+6. Subimos nuestros cambios a nuestro fork
+    ```bash
+    $ git push --upstream santisoler agrega-santi
+    ```
+7. Abrimos un PullRequest desde GitHub
 
 ---
 
-<!-- .slide: data-background-color="#FAFAFA" -->
+## Consejos y recomendaciones
 
-## You can change the background color
+- Contribuciones != Código
+- Código de Conducta
+- Licencia de Software
+- Canales de comunicación
 
 ---
 
-## Add quotes
 
-<blockquote>
-This is a quote
-</blockquote>
+# No esperes para usarlo
+
+* Lee 
+* Pregunta 
+* Usalo para cualquier proyecto que tengas. 
+
+_Lo bueno de Git es que puesdes ir para atras o para delante_
 
 ---
 
@@ -574,17 +567,17 @@ This is a quote
 <ul class="fa-ul" style="">
 <li><i class="fa-li fa fa-envelope"></i>
 
-[santiago.r.soler@gmail.com](mailto:santiago.r.soler@gmail.com)
+[pesce.agustina@gmail.com](mailto:pesce.agustina@gmail.com)
 
 </li>
 <li><i class="fa-li fab fa-twitter"></i>
 
-[@santirsoler](https://twitter.com/santirsoler)
+[@saguspesce](https://twitter.com/aguspesce)
 
 </li>
 <li><i class="fa-li fa fa-globe-americas"></i>
 
-[santisoler.github.io](https://santisoler.github.io)
+[aguspesce.github.io](https://aguspesce.github.io)
 
 </li>
 </ul>
