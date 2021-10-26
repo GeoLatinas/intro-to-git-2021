@@ -2,7 +2,7 @@
 
 # Introducción a Git y Github
 
-## [Santiago Soler](https://santisoler.github.io)<sup>1,2</sup> y [Mariana Gomez](https://github.com/MGomezN)<sup>3</sup>
+## [Agustina Pesce](https://aguspesce.github.io)<sup>1,2</sup> y [Mariana Gomez](https://github.com/MGomezN)<sup>3</sup>
 
 <sup>1</sup>[*CONICET, Argentina*](https://www.conicet.gov.ar/)
 <br>
@@ -20,7 +20,7 @@
 
 # Información
 
-- **Cuándo:** [Sábado 5 de Junio 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introducci%C3%B3n+a+Git+%7C+Geolatinas&iso=20210605T12&p1=51&ah=5)
+- **Cuándo:** [Sábado 4 de Diciembre 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introduccion+a+Git&iso=20211204T12&p1=1078&ah=4)
 - **Notas colaborativas:** Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 - **Material:**  https://swcarpentry.github.io/git-novice-es
 - **Diapositivas:**  https://geolatinas.github.io/intro-to-git-2021
@@ -32,7 +32,7 @@
 1. Terminal
 2. Instalar git
 3. Editor de texto
-4. Cuenta en GitHub
+4. Tener una cuenta en GitHub
 5. Llenar formulario de registro al taller
 
 No es necesario tener experiencia en el uso de la terminal.
@@ -54,15 +54,15 @@ No es necesario tener experiencia en el uso de la terminal.
 <div class="column">
 
 - Control Automatizado de Versiones
-- Configurando Git
-- Creando un repositorio
-- Rastreando Cambios
-- Explorando el "History"
+- Configuración Git
+- Cómo crear un repositorio
+- Cómo registrar los cambios
+- Explorar el "History"
 
 </div>
 <div class="column">
 
-- Ignorando cosas
+- Cómo ignorar cosas
 - Repositorios remotos en GitHub
 - Trabajos en colaboración
 - Conflictos
@@ -134,6 +134,11 @@ posible?
 
 ---
 
+¡Vamos a configurarlo juntos!
+
+---
+
+
 # Creando un repositorio
 
 ---
@@ -150,6 +155,10 @@ posible?
 
 - `git init`: Crea un nuevo repositorio en la carpeta actual
 - `git status`: Revisamos el estado del repositorio
+
+---
+
+¡Vamos a crear un repositorio juntos!
 
 ---
 
@@ -175,11 +184,21 @@ posible?
 
 ---
 
+¡Vamos hacer un commit!
+
+---
+
 ## Ejercicios
 
 ---
 
 ## 1. Multiple choice
+
+¿Cuál de los siguientes mensajes de commit sería el más apropiado para el último commit hecho a mars.txt?
+
+1. “Changes”
+2. “Added line ‘But the Mummy will appreciate the lack of humidity’ to mars.txt”
+3. “Discuss effects of Mars’ climate on the Mummy”
 
 ---
 
@@ -190,7 +209,6 @@ posible?
    Venus como base para tí y tus amigxs.
 1. Agrega los cambios de ambos archivos al **staging area**, y haz un **commit** de esos cambios.
 
-
 ---
 
 ## 3. Repositorio bio
@@ -200,7 +218,6 @@ posible?
    **commit** de tus cambios.
 1. Modifica una línea, agrega una cuarta línea.
 1. Muestra las diferencias entre el estado actualizado y el original.
-
 
 ---
 
@@ -229,6 +246,38 @@ posible?
 ---
 
 ## 1. Multiple choice
+
+Jennifer ha realizado cambios en el script en el que ha estado trabajando durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el script y ya no funciona.
+Por suerte, ha estado usando Git...
+
+---
+
+## 1. Multiple choice
+
+¿Cuáles comandos le permitirán recuperar la última versión estable de su script llamado script.py?
+
+<ol>
+    <li>
+    <pre><code>$ git checkout HEAD
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>$ git checkout HEAD script.py
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>$ git checkout HEAD~1 script.py
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>$ git checkout [ID_last_commit] script.py
+    </code></pre>
+    </li>
+    <li>
+    <pre><code>Ambos 2 y 4
+    </code></pre>
+    </li>
+</ol>
 
 ---
 
@@ -277,9 +326,25 @@ Venus is too hot to be suitable as a base
 
 ---
 
-# Descanso
+# Ignorando cosas
+
+¿Qué pasa si tenemos archivos que no queremos que Git rastree?
+
+
+Debemos crear un **.gitignore**
 
 ---
+
+Probemoslo...
+
+---
+
+
+
+
+
+
+
 
 # Do you want columns?
 
