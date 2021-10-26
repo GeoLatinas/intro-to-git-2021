@@ -339,9 +339,142 @@ Probemoslo...
 
 ---
 
+# Repositorios remotos en GitHub
+
+---
+
+<img src="images/github.svg" alt="" style="width: 40%;">
+
+- Nos permite almacenar repositorios "en la nube"
+- Facilita la colaboración
+- Issues y PullRequests
+- Mucho más:
+    - Code review
+    - Releases
+    - Continuous Integration
+    - GitHub Pages
+
+---
+
+# Crear un repositorio en GitHub
+
+<div class="r-stack">
+<img class="fragment current-visible" src="images/github-create-repo-01.png" alt="" style="width: 50%">
+<img class="fragment current-visible" src="images/github-create-repo-02.png" alt="" style="width: 50%">
+</div>
+
+---
+
+# Subir cambios a GitHub
+
+¿Cómo se ve el reposotorio local y el remoto?
+
+<img class="fragment current-visible" src="images/git-freshly-made-github-repo.svg" alt="" style="width: 50%">
+
+---
+
+# Subir cambios a GitHub
+
+Pero lo que quiero hacer es: 
+
+<img class="fragment current-visible" src="images/github-repo-after-first-push.svg" alt="" style="width: 50%">
+
+---
+
+## Comandos de git
+
+- `git remote add origin URL`: Agrega la dirección de repositorio de GitHub bajo el nombre `origin`.
+- `git remote -v`: Verifica que esté bien configurado.    
+- `git push origin main`: Sube los cambios al repositorio de GitHub.
+
+---
+
+Probemoslo...
+
+---
+
+# Trabajos en colaboración
+
+---
+
+# Trabajos en colaboración
+
+<img class="fragment current-visible" src="images/github-repo-setting.png" alt="" style="width: 50%">
+</div>
+
+---
+
+## Comandos de Git
+
+- `git clone [url]` clona un repositorio contenido en GutHub.
+- `git push origin main` envia los cambios hacia el repositorio de GitHub.
+- `git pull` descargar los cambios hechos por el colaborador desde GitHub.
+
+---
+
+## Un flujo de trabajo colaborativo básico
+
+1. Actualizar el repositorio local:
+```
+git pull origin main
+```
+1. Realizar los cambios:
+```
+git add
+```
+1. Realizar un commit:
+```
+git commit -m "[mensaje]"
+```        
+1. Cargar las actualizaciones a GitHub:
+```
+git push origin main
+```
+
+_Es mejor hacer varias actualizaciones pequeñas que un commit grande con cambios enormes._
+
+_Commits pequeños son más fáciles de leer y revisar._
+
+---
+
+# Conflictos
+
+---
+
+¡Hagamos un lio!
+
+---
+
+## Consejos para trabajos colaborativos 
 
 
+**La resolución de conflictos cuesta tiempo y esfuerzo**,
 
+---
+
+### Algunas técnicas para reducir conflictos:
+
+* Hacer `pull` con mayor frecuencia, especialmente antes de empezar una nueva tarea.
+* Hacer comentarios mas cortos y concisos
+* Cuando sea apropiado, dividir archivos grandes en varios pequeños de manera que sea menos probable que dos autores alteren el mismo archivo simultáneamente.
+
+---
+
+Los conflictos también **pueden ser minimizados con estrategias de administración de proyectos**:
+
+* Aclarar con tus colaboradores quién es responsable de cada área.
+* Discutir con ellos en qué orden deben realizarse las tareas para que no trabajen simultaneamente en las mismas lineas.
+* Si los conflictos son de estilo (e.g. tabulaciones vs. espacios), establecer una convención que rija el proyecto y utilizar herramientas de estilo de código.
+
+---
+
+No esperes para usarlo ...
+
+lee 
+pregunta 
+ y usalo para cualquier proyecto que tengas
+
+---
 
 
 
