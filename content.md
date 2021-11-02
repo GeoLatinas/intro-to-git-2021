@@ -66,7 +66,6 @@ No es necesario tener experiencia en el uso de la terminal.
 - Repositorios remotos en GitHub
 - Trabajos en colaboración
 - Conflictos
-- Un extra...
 
 </div>
 </div>
@@ -112,7 +111,6 @@ No es necesario tener experiencia en el uso de la terminal.
 - Permite que mucha gente trabaje en lo mismo en paralelo.
 - **Repositorio:** El historial completo de **commits**
 
-
 ---
 
 Imagina que has redactado un excelente párrafo para un artículo que estás
@@ -139,6 +137,16 @@ posible?
 
 ---
 
+## Comandos de git
+
+- `git config --global user.name "tu_nombre"` : configura el nombre con el que
+quedará registrada la activida que hagas en `Git`.
+- `git config --global user.email "tu_mail"` : configura el mail que quedará 
+asociado a la activida que hagas en `Git`.
+- `git config --global core.editor "tu_editor_favorito"`: configura el editor
+que usará `Git`.
+
+---
 
 # Creando un repositorio
 
@@ -152,18 +160,22 @@ posible?
 
 ---
 
-## Comandos de git
-
-- `git init`: Crea un nuevo repositorio en la carpeta actual
-- `git status`: Revisamos el estado del repositorio
-
----
-
 ¡Vamos a crear un repositorio juntos!
 
 ---
 
+## Comandos de git
+
+- `git init`: crea un nuevo repositorio en la carpeta actual
+- `git status`: revisamos el estado del repositorio
+
+---
+
 # Rastreando Cambios
+
+---
+
+¡Vamos hacer un commit!
 
 ---
 
@@ -175,17 +187,13 @@ posible?
 
 ## Comandos de git
 
-- `git add`: Añade uno o más archivos al **staging area**
-- `git commit`: Registra los cambios de la **staging area** en un commit
-- `git log`: Muestra un historial de cambios
-- `git diff`: Muestras las diferencias entre el estado actual de los archivos
+- `git add`: añade uno o más archivos al **staging area**
+- `git commit`: registra los cambios de la **staging area** en un commit
+- `git log`: muestra un historial de cambios
+- `git diff`: muestras las diferencias entre el estado actual de los archivos
     y la versión del commit más reciente
-- `git diff --staged`: Muestra las diferencias entre el estado de los archivos
+- `git diff --staged`: muestra las diferencias entre el estado de los archivos
     en el staging area y la versión del commit más reciente.
-
----
-
-¡Vamos hacer un commit!
 
 ---
 
@@ -193,32 +201,24 @@ posible?
 
 ---
 
-## 1. Multiple choice
-
-¿Cuál de los siguientes mensajes de commit sería el más apropiado para el último commit hecho a mars.txt?
-
-1. “Changes”
-2. “Added line ‘But the Mummy will appreciate the lack of humidity’ to mars.txt”
-3. “Discuss effects of Mars’ climate on the Mummy”
-
----
-
-## 2. Haciendo Commit a Multiples Archivos
+## 1. Haciendo Commit a Multiples Archivos
 
 1. Agrega algún texto a `mars.txt` anotando tu decisión de considerar Venus como base.
-1. Crea un nuevo archivo `venus.txt` con tus pensamientos iniciales acerca de
+2. Crea un nuevo archivo `venus.txt` con tus pensamientos iniciales acerca de
    Venus como base para tí y tus amigxs.
-1. Agrega los cambios de ambos archivos al **staging area**, y haz un **commit** de esos cambios.
+3. Agrega los cambios de ambos archivos al **staging area**, y haz un **commit** de esos cambios.
+4. ¿Alguna duda?
 
 ---
 
-## 3. Repositorio bio
+## 2. Repositorio bio
 
 1. Crea un nuevo repositorio Git en tu computadora, llamado `bio`.
-1. Escribe una autobiografía de tres líneas en un archivo llamado `me.txt`, haz
+2. Escribe una autobiografía de tres líneas en un archivo llamado `me.txt`, haz
    **commit** de tus cambios.
-1. Modifica una línea, agrega una cuarta línea.
-1. Muestra las diferencias entre el estado actualizado y el original.
+3. Modifica una línea, agrega una cuarta línea.
+4. Muestra las diferencias entre el estado actualizado y el original.
+5. ¿Aguna duda?
 
 ---
 
@@ -232,14 +232,18 @@ posible?
 
 ---
 
+Exploremos juntos el repositorio...
+
+---
+
 ## Comandos de git
 
-- `HEAD` simboliza el commit más reciente
-- `git diff HEAD~2 main` nos muestra las diferencias entre main y los últimos
+- `HEAD`: simboliza el commit más reciente.
+- `git diff HEAD~2`: nos muestra las diferencias respecto a los últimos
     dos commits.
-- `git show HEAD~1` nos muestra los cambios realizados por el penúltimo commit.
+- `git show HEAD~1`: nos muestra los cambios realizados por el penúltimo commit.
 - Podemos usar el identificador del commit en vez de `HEAD`.
-- `git checkout` nos deja _visitar_ commits anteriores.
+- `git checkout`: nos deja _visitar_ commits anteriores.
 - Nunca hay que hacer commits si no estamos en `HEAD`.
 
 ---
@@ -250,7 +254,9 @@ posible?
 
 ## 1. Multiple choice
 
-Jennifer ha realizado cambios en el script en el que ha estado trabajando durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el script y ya no funciona.
+Jennifer ha realizado cambios en el script en el que ha estado trabajando 
+durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el 
+script y ya no funciona.
 Por suerte, ha estado usando Git...
 
 ---
@@ -322,12 +328,13 @@ Venus is too hot to be suitable as a base
 
 ## 2. Deshacer cambios añadidos al stage area
 
-- `git checkout` puede usarse para restaurar un commit anterior cuando cambios
-  no marcados se han hecho, pero ¿También funcionará para los cambios que se
-  han marcado pero no se han vuelto commit?
+`git checkout` puede usarse para restaurar un commit anterior cuando cambios
+no marcados se han hecho, pero ¿También funcionará para los cambios que se
+han marcado pero no se han vuelto commit?
 
-- Haz un cambio a `mars.txt`, agrega el cambio y usa `git checkout` para ver si
-  puedes eliminar tu cambio.
+1. Haz un cambio a `mars.txt`.
+2. Agrega el cambio.
+3. Usa `git checkout` para ver si puedes eliminar tu cambio.
 
 ---
 
@@ -374,9 +381,11 @@ Probemoslo...
 
 ---
 
-# Subir cambios a GitHub
+Creemos un repositorio...
 
-¿Cómo se ve el reposotorio local y el remoto?
+---
+
+## ¿Cómo se ve el reposotorio local y el remoto?
 
 <img class="fragment current-visible" src="images/git-freshly-made-github-repo.svg" alt="" style="width: 50%">
 
@@ -390,17 +399,28 @@ Pero lo que quiero hacer es:
 
 ---
 
+Conectemos los dos repositorios... 
+
+---
+
 ## Comandos de git
 
-- `git remote add origin URL`: Agrega la dirección de repositorio de GitHub bajo el nombre `origin`.
-- `git remote -v`: Verifica que esté bien configurado.    
-- `git push origin main`: Sube los cambios al repositorio de GitHub.
+- `git remote add origin URL`: agrega la dirección de repositorio de GitHub bajo el nombre `origin`.
+- `git remote -v`: verifica que esté bien configurado.    
+- `git push origin main`: sube los cambios al repositorio de GitHub.
 
 ---
 
-Probemoslo...
+# Ejercicio
 
 ---
+
+En esta lección hemos introducido el comando `git push`. 
+
+¿En qué se diferencia `git push` de `git commit`?
+
+---
+
 
 # Trabajos en colaboración
 
@@ -418,6 +438,34 @@ Probemoslo...
 - `git clone [url]`: Clona un repositorio contenido en GutHub.
 - `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
 - `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
+
+---
+
+## Ejercicio de trabajo colaborativo
+
+Para el siguiente paso, formen parejas. Una persona será el “dueño” y la otra el “colaborador”. El objetivo es que el colaborador agregue cambios al repositorio del dueño. Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
+
+---
+
+## Ejercicio de trabajo colaborativo
+
+1. Formen parejas y elijan lor roles.
+2. El dueño debe dar acceso al colaborador en GitHub.
+3. Para aceptar la invitación de acceso al repositorio, el colaborador debe ingresar a [https://github.com/notifications](https://github.com/notifications) y aceptar la invitación a dicho repositorio.
+4. El colaborador debe descargar (clonar) una copia del repositorio del dueño a su máquina.
+5. El colaborador puede ahora hacer cambios en la versión clonada del repositorio del dueño, en la misma forma en que se hacían previamente.
+6. Luego enviar los cambios hacia el repositorio del dueño en GitHub haciendo push:
+
+---
+
+# Conflictos
+
+---
+
+# Conflictos
+
+<img class="fragment current-visible" src="images/git-conflictos.png" alt="" style="width: 70%">
+</div>
 
 ---
 
@@ -440,17 +488,11 @@ git commit -m "[mensaje]"
 git push origin main
 ```
 
+---
+
 _Es mejor hacer varias actualizaciones pequeñas que un commit grande con cambios enormes._
 
 _Commits pequeños son más fáciles de leer y revisar._
-
----
-
-# Conflictos
-
----
-
-¡Hagamos un lio!
 
 ---
 
@@ -474,6 +516,72 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 * Aclarar con tus colaboradores quién es responsable de cada área.
 * Discutir con ellos en qué orden deben realizarse las tareas para que no trabajen simultaneamente en las mismas lineas.
 * Si los conflictos son de estilo (e.g. tabulaciones vs. espacios), establecer una convención que rija el proyecto y utilizar herramientas de estilo de código.
+
+---
+
+## Consejos y recomendaciones
+
+- Contribuciones != Código
+- Código de Conducta
+- Licencia de Software
+- Canales de comunicación
+
+---
+
+
+# No esperes para usarlo
+
+* Lee 
+* Pregunta 
+* Usalo para cualquier proyecto que tengas. 
+
+_Lo bueno de Git es que puesdes ir para atras o para delante_
+
+---
+
+# Contacto
+
+<div>
+
+<ul class="fa-ul" style="">
+<li><i class="fa-li fa fa-envelope"></i>
+
+[pesce.agustina@gmail.com](mailto:pesce.agustina@gmail.com)
+
+</li>
+<li><i class="fa-li fab fa-twitter"></i>
+
+[@saguspesce](https://twitter.com/aguspesce)
+
+</li>
+<li><i class="fa-li fa fa-globe-americas"></i>
+
+[aguspesce.github.io](https://aguspesce.github.io)
+
+</li>
+</ul>
+
+</div>
+
+---
+
+<!-- .slide: class="slide-license" -->
+
+<p class="license-icons">
+<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
+</p>
+
+El contenido de esta presentación está disponible bajo
+
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+<!-- .slide: class="slide-title" -->
+
+# Muchas gracias
+
+---
 
 ---
 
@@ -537,26 +645,6 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
     $ git push --upstream santisoler agrega-santi
     ```
 7. Abrimos un PullRequest desde GitHub
-
----
-
-## Consejos y recomendaciones
-
-- Contribuciones != Código
-- Código de Conducta
-- Licencia de Software
-- Canales de comunicación
-
----
-
-
-# No esperes para usarlo
-
-* Lee 
-* Pregunta 
-* Usalo para cualquier proyecto que tengas. 
-
-_Lo bueno de Git es que puesdes ir para atras o para delante_
 
 ---
 
