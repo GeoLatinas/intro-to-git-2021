@@ -1,6 +1,6 @@
 # Introducción a Git y Github 2021
 
-Por [Santiago Soler](https://www.santisoler.com/) <sup>1,2</sup> y [Mariana Gómez](https://github.com/MGomezN)<sup>3
+Por [Agustina Pesce](https://aguspesce.github.io/) <sup>1,[Santiago Soler](https://www.santisoler.com/) <sup>1,2</sup> y [Mariana Gómez](https://github.com/MGomezN)<sup>3
 > <sup>1</sup> CONICET, Argentina
 > <br>
 > <sup>2</sup> Instituto Geofísico Sismológico Volponi, UNSJ, Argentina
@@ -9,7 +9,7 @@ Por [Santiago Soler](https://www.santisoler.com/) <sup>1,2</sup> y [Mariana Góm
 
 | Información | |
 | - | ---
-Cuándo | [Por confirmar]
+Cuándo | [Sábado 27 de noviembre de las 14:00 a las 18:00 hrs UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introducci%C3%B3n+a+Git+y+Github+2021&iso=20211127T11&p1=51&ah=4)
 Dónde | Zoom (link en el canal de Slack `#coding-group`)
 Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
@@ -23,7 +23,7 @@ En este taller aprenderemos las bases de lo que es Git y Github. Comprenderás q
 
 ## ANTES DEL TALLER  
 
-Asegúrate de completar los siguientes pasos *antes del Sábado 5 de Junio*:
+Asegúrate de completar los siguientes pasos *antes del Sábado 27 de noviembre*:
 
 1. Instalar una aplicación de Terminal
 2. Instalar git
@@ -39,7 +39,7 @@ Más adelante encontrás instrucciones de cómo realizar estos pasos.
 Acá podrás encontrar instrucciones para configurar tu computadora y tener todo
 listo para el taller.
 Las instrucciones y los programas que vas a tener que instalar van a variar
-dependiendo de tu tu sistema operativo.
+dependiendo de tu sistema operativo.
 Todos los programas que necesitas para el taller se encuentran bajo licencias
 de [Software Libre](https://es.wikipedia.org/wiki/Software_libre).
 
