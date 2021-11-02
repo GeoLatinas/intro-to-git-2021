@@ -556,7 +556,7 @@ Ejercicios
 
 ## 1. Haga un pull request
 
-Agregue su nombre en el archivo `participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
+Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
 
 1. Descargamos el repositorio **intro-git-2021** usando el comando `clone`.    
 2. Hacemos un **Fork**  de **intro-git-2021** desde GitHub.
