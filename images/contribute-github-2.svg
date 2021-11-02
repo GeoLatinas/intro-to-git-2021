@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="493.29663mm"
    height="183.8349mm"
    viewBox="0 0 493.29663 183.8349"
    version="1.1"
    id="svg112"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="contribute-github-2.svg">
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="contribute-github-2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs106">
     <marker
@@ -2422,19 +2422,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="818.91659"
-     inkscape:cy="628.83376"
+     inkscape:zoom="0.64"
+     inkscape:cx="552.34375"
+     inkscape:cy="577.34375"
      inkscape:document-units="mm"
      inkscape:current-layer="g20885"
      inkscape:document-rotation="0"
      showgrid="false"
      showborder="true"
      inkscape:window-width="1908"
-     inkscape:window-height="1022"
+     inkscape:window-height="1003"
      inkscape:window-x="6"
-     inkscape:window-y="52"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata109">
     <rdf:RDF>
@@ -2443,7 +2444,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2471,19 +2471,19 @@
         <text
            xml:space="preserve"
            id="text20743"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20887);fill:#fafafa;fill-opacity:1;stroke:none;"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20887);fill:#fafafa;fill-opacity:1;stroke:none"
            transform="translate(-816.14668,-415.2373)"><tspan
              x="66.306641"
-             y="29.242646"><tspan
-               style="fill:#fafafa;fill-opacity:1">practica_geolatinas</tspan></tspan></text>
+             y="29.242646"
+             id="tspan3839">intro-to-git-2021</tspan></text>
         <text
            transform="translate(-791.31718,-400.40428)"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20889);fill:#fafafa;fill-opacity:1;stroke:none;"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20889);fill:#fafafa;fill-opacity:1;stroke:none"
            id="text20749"
            xml:space="preserve"><tspan
              x="66.306641"
-             y="29.242646"><tspan
-               style="fill:#fafafa;fill-opacity:1">main</tspan></tspan></text>
+             y="29.242646"
+             id="tspan3841">main</tspan></text>
         <path
            style="fill:none;stroke:#fafafa;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker21667)"
            d="m -739.39014,-382.66892 v 8.70083 l 8.95004,-0.14578"
@@ -2548,21 +2548,22 @@
         </g>
         <text
            transform="translate(-101.66571,-3.687375)"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20893);fill:#fafafa;fill-opacity:1;stroke:none;"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20893);fill:#fafafa;fill-opacity:1;stroke:none"
            id="text20793"
            xml:space="preserve"><tspan
              x="66.306641"
-             y="29.242646"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#fafafa;fill-opacity:1">aguspesce</tspan><tspan
-               style="fill:#fafafa;fill-opacity:1">/practica_geolatinas</tspan></tspan></text>
+             y="29.242646"
+             id="tspan3845"> <tspan
+   style="font-weight:bold;-inkscape-font-specification:'sans-serif, Bold'"
+   id="tspan3843">GeoLatinas</tspan>/intro-to-git-2021 </tspan></text>
         <text
            xml:space="preserve"
            id="text20799"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20895);fill:#fafafa;fill-opacity:1;stroke:none;"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20895);fill:#fafafa;fill-opacity:1;stroke:none"
            transform="translate(-76.836218,11.14565)"><tspan
              x="66.306641"
-             y="29.242646"><tspan
-               style="fill:#fafafa;fill-opacity:1">main</tspan></tspan></text>
+             y="29.242646"
+             id="tspan3847">main</tspan></text>
         <path
            sodipodi:nodetypes="ccc"
            id="path20801"
@@ -2577,11 +2578,11 @@
        id="path20807" />
     <text
        transform="translate(-802.92395,-450.46378)"
-       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20899);fill:#ff8300;fill-opacity:1;stroke:none;"
+       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20899);fill:#ff8300;fill-opacity:1;stroke:none"
        id="text20817"
        xml:space="preserve"><tspan
          x="66.306641"
-         y="32.363923"><tspan
-           style="font-size:14.1111px">clone</tspan></tspan></text>
+         y="32.363923"
+         id="tspan3849">clone</tspan></text>
   </g>
 </svg>

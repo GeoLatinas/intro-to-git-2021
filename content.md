@@ -519,76 +519,6 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 
 ---
 
-## Consejos y recomendaciones
-
-- Contribuciones != Código
-- Código de Conducta
-- Licencia de Software
-- Canales de comunicación
-
----
-
-
-# No esperes para usarlo
-
-* Lee 
-* Pregunta 
-* Usalo para cualquier proyecto que tengas. 
-
-_Lo bueno de Git es que puesdes ir para atras o para delante_
-
----
-
-# Contacto
-
-<div>
-
-<ul class="fa-ul" style="">
-<li><i class="fa-li fa fa-envelope"></i>
-
-[pesce.agustina@gmail.com](mailto:pesce.agustina@gmail.com)
-
-</li>
-<li><i class="fa-li fab fa-twitter"></i>
-
-[@saguspesce](https://twitter.com/aguspesce)
-
-</li>
-<li><i class="fa-li fa fa-globe-americas"></i>
-
-[aguspesce.github.io](https://aguspesce.github.io)
-
-</li>
-</ul>
-
-</div>
-
----
-
-<!-- .slide: class="slide-license" -->
-
-<p class="license-icons">
-<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
-</p>
-
-El contenido de esta presentación está disponible bajo
-
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
-
----
-
-<!-- .slide: class="slide-title" -->
-
-# Muchas gracias
-
----
-
----
-
-# ¡Vamos por un extra!
-
----
-
 # ¿Cómo colaborar si no sos un colaborador directo?
 
 ---
@@ -609,42 +539,45 @@ El contenido de esta presentación está disponible bajo
 # Work flow
 
 <div class="r-stack">
-<img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt="">
+<!-- <img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt=""> -->
 <img class="fragment current-visible" data-fragment-index="0" src="images/git-repo-2.svg" alt="">
 <img class="fragment current-visible" src="images/git-repo-3.svg" alt="">
 <img class="fragment current-visible" src="images/git-repo-4.svg" alt="">
 <img class="fragment current-visible" src="images/git-repo-5.svg" alt="">
 <img class="fragment current-visible" src="images/git-repo-6.svg" alt="">
-<img class="fragment" src="images/git-repo-7.svg" alt="">
+<!-- <img class="fragment" src="images/git-repo-7.svg" alt=""> -->
 </div
 
 ---
 
-## Pasos
+Ejercicios
 
-1. Descargamos el repositorio
-    ```bash
-    $ git clone https://github.com/aguspesce/practica_geolatinas
-    ```
-2. Hacemos un Fork desde GitHub
-3. Agregamos el remote de nuestro fork
-    ```bash
-    $ git remote add santisoler https://github.com/santisoler/practica_geolatinas
-    ```
-4. Creamos una nueva rama
-    ```bash
-    $ git switch --create agrega-santi
-    ```
-5. Realizamos cambios y agregamos commits
-    ```bash
-    $ git add .
-    $ git commit
-    ```
-6. Subimos nuestros cambios a nuestro fork
-    ```bash
-    $ git push --upstream santisoler agrega-santi
-    ```
-7. Abrimos un PullRequest desde GitHub
+---
+
+## 1. Haga un pull request
+
+Agregue su nombre en el archivo `participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
+
+1. Descargamos el repositorio **intro-git-2021** usando el comando `clone`.    
+2. Hacemos un **Fork**  de **intro-git-2021** desde GitHub.
+3. Agregue su fork como remoto con el comando `git remote add`.
+4. Cree una nueva rama llamada `agrega-su_nombre` con `git switch --create`.
+5. Agregue su nombre en el archivo `participantes.txt` y haga un commit.
+6. Suba los cambios a su fork con `git push`.
+7. Abra un Pull Request  en en repositorio `intro-git-2021`.
+
+---
+
+# Consejos y recomendaciones
+
+- Contribuciones != Código
+- Código de Conducta
+- Licencia de Software
+- Canales de comunicación
+- No esperes para usarlo
+    * Lee 
+    * Pregunta 
+    * Usalo para cualquier proyecto que tengas. 
 
 ---
 
@@ -689,3 +622,5 @@ El contenido de esta presentación está disponible bajo
 <!-- .slide: class="slide-title" -->
 
 # Muchas gracias
+
+---
