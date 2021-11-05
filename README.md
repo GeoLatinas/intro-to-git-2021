@@ -13,7 +13,7 @@ Cuándo | [Sábado 27 de noviembre de las 14:00 a las 18:00 hrs UTC](https://www
 Dónde | Zoom (link en el canal de Slack `#coding-group`)
 Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
-Diapositivas | https://geolatinas.github.io/intro-to-git-2021
+Diapositivas | Próximamente
 
 
 ## Acerca del taller
