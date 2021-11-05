@@ -1,6 +1,6 @@
 # Introducción a Git y Github 2021
 
-Por [Agustina Pesce](https://aguspesce.github.io/) <sup>1,[Santiago Soler](https://www.santisoler.com/) <sup>1,2</sup> y [Mariana Gómez](https://github.com/MGomezN)<sup>3
+Por [Agustina Pesce](https://aguspesce.github.io/) <sup>1, 2</sup>, [Santiago Soler](https://www.santisoler.com/) <sup>1,2</sup> y [Mariana Gómez](https://github.com/MGomezN)<sup>3</sup>
 > <sup>1</sup> CONICET, Argentina
 > <br>
 > <sup>2</sup> Instituto Geofísico Sismológico Volponi, UNSJ, Argentina
