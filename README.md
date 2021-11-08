@@ -11,10 +11,10 @@ Por [Agustina Pesce](https://aguspesce.github.io/) <sup>1, 2</sup>, [Santiago So
 | - | ---
 Cuándo | [Sábado 27 de noviembre de las 14:00 a las 18:00 hrs UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introducci%C3%B3n+a+Git+y+Github+2021&iso=20211127T11&p1=51&ah=4)
 Dónde | Zoom (link en el canal de Slack `#coding-group`)
+Inscripción | [formulario](http://bit.ly/Git_Github_GeoLatinas)
 Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
 Diapositivas | Próximamente
-
 
 ## Acerca del taller
 
