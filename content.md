@@ -2,7 +2,7 @@
 
 # Introducción a Git y Github
 
-## [Agustina Pesce](https://aguspesce.github.io)<sup>1,2</sup> y [Mariana Gomez](https://github.com/MGomezN)<sup>3</sup>
+## [Agustina Pesce](https://aguspesce.github.io)<sup>1,2</sup> y [Mariana Gómez](https://github.com/MGomezN)<sup>3</sup>
 
 <sup>1</sup>[*CONICET, Argentina*](https://www.conicet.gov.ar/)
 <br>
@@ -20,7 +20,7 @@
 
 # Información
 
-- **Cuándo:** [Sábado 4 de Diciembre 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introduccion+a+Git&iso=20211204T12&p1=1078&ah=4)
+- **Cuándo:** [Sábado 27 de noviembre 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introduccion+a+Git&iso=20211204T12&p1=1078&ah=4)
 - **Notas colaborativas:** Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 - **Material:**  https://swcarpentry.github.io/git-novice-es
 - **Diapositivas:**  https://geolatinas.github.io/intro-to-git-2021
@@ -30,19 +30,19 @@
 # Requisitos
 
 1. Terminal
-2. Instalar git
+2. Instalar Git
 3. Editor de texto
 4. Tener una cuenta en GitHub
 5. Llenar formulario de registro al taller
 
-No es necesario tener experiencia en el uso de la terminal.
+No es necesario tener experiencia en el uso de la terminal
 
 ---
 
 # Objetivos
 
-- Gestionar versiones con git
-- Aplicar las mejores prácticas de git
+- Gestionar versiones con Git
+- Aplicar las mejores prácticas de Git
 - Trabajar con repositorios remotos (GitHub)
 - Trabajar de forma colaborativa
 
@@ -107,8 +107,8 @@ No es necesario tener experiencia en el uso de la terminal.
 # Sistema de control de versiones
 
 - Realiza seguimiento de cambios o **commits**
-- Es como un _deshacer_ sin límites.
-- Permite que mucha gente trabaje en lo mismo en paralelo.
+- Es como un _deshacer_ sin límites
+- Permite que mucha gente trabaje en lo mismo en paralelo
 - **Repositorio:** El historial completo de **commits**
 
 ---
@@ -133,16 +133,16 @@ posible?
 
 ---
 
-¡Vamos a configurarlo juntos!
+¡Vamos a configurarlo juntas!
 
 ---
 
 ## Comandos de git
 
 - `git config --global user.name "tu_nombre"` : configura el nombre con el que
-quedará registrada la activida que hagas en `Git`.
+quedará registrada la actividad que hagas en `Git`.
 - `git config --global user.email "tu_mail"` : configura el mail que quedará 
-asociado a la activida que hagas en `Git`.
+asociado a la actividad que hagas en `Git`.
 - `git config --global core.editor "tu_editor_favorito"`: configura el editor
 que usará `Git`.
 
@@ -160,7 +160,7 @@ que usará `Git`.
 
 ---
 
-¡Vamos a crear un repositorio juntos!
+¡Vamos a crear un repositorio juntas!
 
 ---
 
@@ -175,7 +175,7 @@ que usará `Git`.
 
 ---
 
-¡Vamos hacer un commit!
+¡Vamos a hacer un commit!
 
 ---
 
@@ -201,7 +201,7 @@ que usará `Git`.
 
 ---
 
-## 1. Haciendo Commit a Multiples Archivos
+## 1. Haciendo Commit a Múltiples Archivos
 
 1. Agrega algún texto a `mars.txt` anotando tu decisión de considerar Venus como base.
 2. Crea un nuevo archivo `venus.txt` con tus pensamientos iniciales acerca de
@@ -218,7 +218,7 @@ que usará `Git`.
    **commit** de tus cambios.
 3. Modifica una línea, agrega una cuarta línea.
 4. Muestra las diferencias entre el estado actualizado y el original.
-5. ¿Aguna duda?
+5. ¿Alguna duda?
 
 ---
 
@@ -351,7 +351,7 @@ Debemos crear un **.gitignore**
 
 ---
 
-Probemoslo...
+Probémoslo...
 
 ---
 
@@ -363,7 +363,7 @@ Probemoslo...
 
 - Nos permite almacenar repositorios "en la nube"
 - Facilita la colaboración
-- Issues y PullRequests
+- Issues y Pull Requests
 - Mucho más:
     - Code review
     - Releases
@@ -443,18 +443,18 @@ En esta lección hemos introducido el comando `git push`.
 
 ## Ejercicio de trabajo colaborativo
 
-Para el siguiente paso, formen parejas. Una persona será el “dueño” y la otra el “colaborador”. El objetivo es que el colaborador agregue cambios al repositorio del dueño. Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
+Para el siguiente paso, formaremos parejas. Una persona será el “dueño” y la otra el “colaborador”. El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño". Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
 
 ---
 
-## Ejercicio de trabajo colaborativo
+## Ejercicio de trabajo colaborativo (directo)
 
-1. Formen parejas y elijan lor roles.
+1. Formar parejas y elegir los roles.
 2. El dueño debe dar acceso al colaborador en GitHub.
 3. Para aceptar la invitación de acceso al repositorio, el colaborador debe ingresar a [https://github.com/notifications](https://github.com/notifications) y aceptar la invitación a dicho repositorio.
 4. El colaborador debe descargar (clonar) una copia del repositorio del dueño a su máquina.
 5. El colaborador puede ahora hacer cambios en la versión clonada del repositorio del dueño, en la misma forma en que se hacían previamente.
-6. Luego enviar los cambios hacia el repositorio del dueño en GitHub haciendo push:
+6. Luego enviar los cambios hacia el repositorio del dueño en GitHub haciendo push.
 
 ---
 
@@ -506,7 +506,7 @@ _Commits pequeños son más fáciles de leer y revisar._
 ## Algunas técnicas para reducir conflictos:
 
 * Hacer `pull` con mayor frecuencia, especialmente antes de empezar una nueva tarea.
-* Hacer comentarios mas cortos y concisos
+* Hacer comentarios más cortos y concisos
 * Cuando sea apropiado, dividir archivos grandes en varios pequeños de manera que sea menos probable que dos autores alteren el mismo archivo simultáneamente.
 
 ---
@@ -514,7 +514,7 @@ _Commits pequeños son más fáciles de leer y revisar._
 Los conflictos también **pueden ser minimizados con estrategias de administración de proyectos**:
 
 * Aclarar con tus colaboradores quién es responsable de cada área.
-* Discutir con ellos en qué orden deben realizarse las tareas para que no trabajen simultaneamente en las mismas lineas.
+* Discutir con ellos en qué orden deben realizarse las tareas para que no trabajen simultáneamente en las mismas líneas.
 * Si los conflictos son de estilo (e.g. tabulaciones vs. espacios), establecer una convención que rija el proyecto y utilizar herramientas de estilo de código.
 
 ---
@@ -558,8 +558,8 @@ Ejercicios
 
 Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
 
-1. Descargamos el repositorio **intro-git-2021** usando el comando `clone`.    
-2. Hacemos un **Fork**  de **intro-git-2021** desde GitHub.
+1. Descargue el repositorio **intro-git-2021** usando el comando `clone`.    
+2. Haga un **Fork**  de **intro-git-2021** desde GitHub.
 3. Agregue su fork como remoto con el comando `git remote add`.
 4. Cree una nueva rama llamada `agrega-su_nombre` con `git switch --create`.
 5. Agregue su nombre en el archivo `participantes.txt` y haga un commit.
