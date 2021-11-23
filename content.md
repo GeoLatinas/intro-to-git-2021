@@ -66,6 +66,7 @@ No es necesario tener experiencia en el uso de la terminal
 - Repositorios remotos en GitHub
 - Trabajos en colaboración
 - Conflictos
+- Trabajo colaborativo con ramas
 
 </div>
 </div>
@@ -519,7 +520,7 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 
 ---
 
-# ¿Cómo colaborar si no sos un colaborador directo?
+# Colaboración usando ramas
 
 ---
 
@@ -570,20 +571,23 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 
 # Consejos y recomendaciones
 
-- Contribuciones != Código
-- Código de Conducta
-- Licencia de Software
-- Canales de comunicación
 - No esperes para usarlo
     * Lee 
     * Pregunta 
     * Usalo para cualquier proyecto que tengas. 
+- Contribuciones != Código
+- Código de Conducta
+- Licencia de Software
+- Canales de comunicación
 
 ---
 
-# Contacto
+# Contactos
 
-<div>
+<div class="container">
+<div class="column">
+
+## Agustina
 
 <ul class="fa-ul" style="">
 <li><i class="fa-li fa fa-envelope"></i>
@@ -593,7 +597,7 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 </li>
 <li><i class="fa-li fab fa-twitter"></i>
 
-[@saguspesce](https://twitter.com/aguspesce)
+[@aguspesce](https://twitter.com/aguspesce)
 
 </li>
 <li><i class="fa-li fa fa-globe-americas"></i>
@@ -602,7 +606,30 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 
 </li>
 </ul>
+</div>
 
+<div class="column">
+
+## Mariana
+
+<ul class="fa-ul" style="">
+<li><i class="fa-li fa fa-envelope"></i>
+
+[mariana22@ciencias.unam.mx](mailto:mariana22@ciencias.unam.mx)
+
+</li>
+<li><i class="fa-li fab fa-twitter"></i>
+
+[@mariana_zemog](https://twitter.com/mariana_zemog)
+
+</li>
+<li><i class="fa-li fa fa-globe-americas"></i>
+
+[@MGomezN](https://github.com/MGomezN)
+
+</li>
+</ul>
+</div>
 </div>
 
 ---
