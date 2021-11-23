@@ -145,7 +145,7 @@ quedará registrada la actividad que hagas en `git`.
 - `git config --global user.email "tu_mail"` : configura el mail que quedará 
 asociado a la actividad que hagas en `git`.
 - `git config --global core.editor "tu_editor_favorito"`: configura el editor
-que usará `Git`.
+que usará `git`.
 
 ---
 
