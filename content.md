@@ -362,7 +362,7 @@ Probémoslo...
 
 <img src="images/github.svg" alt="" style="width: 40%;">
 
-- Nos permite almacenar repositorios "en la nube"
+- Nos permite almacenar repositorios remotos
 - Facilita la colaboración
 - Issues y Pull Requests
 - Mucho más:
