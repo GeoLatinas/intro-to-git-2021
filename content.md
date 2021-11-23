@@ -62,10 +62,11 @@ No es necesario tener experiencia en el uso de la terminal
 </div>
 <div class="column">
 
-- Cómo ignorar cosas
+- Cómo ignorar determinados archivos
 - Repositorios remotos en GitHub
 - Trabajos en colaboración
 - Conflictos
+- Trabajo colaborativo con ramas (opcional)
 
 </div>
 </div>
@@ -133,18 +134,14 @@ posible?
 
 ---
 
-¡Vamos a configurarlo juntas!
-
----
-
 ## Comandos de git
 
 - `git config --global user.name "tu_nombre"` : configura el nombre con el que
-quedará registrada la actividad que hagas en `Git`.
+quedará registrada la actividad que hagas en `git`.
 - `git config --global user.email "tu_mail"` : configura el mail que quedará 
-asociado a la actividad que hagas en `Git`.
+asociado a la actividad que hagas en `git`.
 - `git config --global core.editor "tu_editor_favorito"`: configura el editor
-que usará `Git`.
+que usará `git`.
 
 ---
 
@@ -160,10 +157,6 @@ que usará `Git`.
 
 ---
 
-¡Vamos a crear un repositorio juntas!
-
----
-
 ## Comandos de git
 
 - `git init`: crea un nuevo repositorio en la carpeta actual
@@ -172,10 +165,6 @@ que usará `Git`.
 ---
 
 # Rastreando Cambios
-
----
-
-¡Vamos a hacer un commit!
 
 ---
 
@@ -232,10 +221,6 @@ que usará `Git`.
 
 ---
 
-Exploremos juntos el repositorio...
-
----
-
 ## Comandos de git
 
 - `HEAD`: simboliza el commit más reciente.
@@ -257,12 +242,13 @@ Exploremos juntos el repositorio...
 Jennifer ha realizado cambios en el script en el que ha estado trabajando 
 durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el 
 script y ya no funciona.
-Por suerte, ha estado usando Git...
+Por suerte, ha estado usando Git.
 
 ---
 
 ## 1. Multiple choice
 
+Si Jennifer todavia no hizo ningún commit ni agrego los cambios al stage area:
 ¿Cuáles comandos le permitirán recuperar la última versión estable de su script llamado script.py?
 
 <ol>
@@ -326,11 +312,11 @@ Venus is too hot to be suitable as a base
 
 ---
 
-## 2. Deshacer cambios añadidos al stage area
+## 3. Deshacer cambios añadidos al stage area
 
 `git checkout` puede usarse para restaurar un commit anterior cuando cambios
 no marcados se han hecho, pero ¿También funcionará para los cambios que se
-han marcado pero no se han vuelto commit?
+han marcado pero no se han vuelto un commit todavia?
 
 1. Haz un cambio a `mars.txt`.
 2. Agrega el cambio.
@@ -351,17 +337,13 @@ Debemos crear un **.gitignore**
 
 ---
 
-Probémoslo...
-
----
-
 # Repositorios remotos en GitHub
 
 ---
 
 <img src="images/github.svg" alt="" style="width: 40%;">
 
-- Nos permite almacenar repositorios "en la nube"
+- Nos permite almacenar repositorios remotos
 - Facilita la colaboración
 - Issues y Pull Requests
 - Mucho más:
@@ -381,11 +363,7 @@ Probémoslo...
 
 ---
 
-Creemos un repositorio...
-
----
-
-## ¿Cómo se ve el reposotorio local y el remoto?
+## ¿Cómo se ve el repositorio local y el remoto?
 
 <img class="fragment current-visible" src="images/git-freshly-made-github-repo.svg" alt="" style="width: 50%">
 
@@ -393,27 +371,21 @@ Creemos un repositorio...
 
 # Subir cambios a GitHub
 
-Pero lo que quiero hacer es: 
+"Empujemos" los cambios del repositorio local al remoto:
 
 <img class="fragment current-visible" src="images/github-repo-after-first-push.svg" alt="" style="width: 50%">
-
----
-
-Conectemos los dos repositorios... 
 
 ---
 
 ## Comandos de git
 
 - `git remote add origin URL`: agrega la dirección de repositorio de GitHub bajo el nombre `origin`.
-- `git remote -v`: verifica que esté bien configurado.    
+- `git remote -v`: lista los repositorios remotos que agregamos.
 - `git push origin main`: sube los cambios al repositorio de GitHub.
 
 ---
 
-# Ejercicio
-
----
+# 1. Ejercicio
 
 En esta lección hemos introducido el comando `git push`. 
 
@@ -441,13 +413,16 @@ En esta lección hemos introducido el comando `git push`.
 
 ---
 
-## Ejercicio de trabajo colaborativo
+## 1. Ejercicio de trabajo colaborativo
 
-Para el siguiente paso, formaremos parejas. Una persona será el “dueño” y la otra el “colaborador”. El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño". Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
+Para el siguiente paso, formaremos parejas.
+Una persona será el “dueño” y la otra el “colaborador”. 
+El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño".
+Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
 
 ---
 
-## Ejercicio de trabajo colaborativo (directo)
+## 1. Ejercicio de trabajo colaborativo
 
 1. Formar parejas y elegir los roles.
 2. El dueño debe dar acceso al colaborador en GitHub.
@@ -455,6 +430,9 @@ Para el siguiente paso, formaremos parejas. Una persona será el “dueño” y 
 4. El colaborador debe descargar (clonar) una copia del repositorio del dueño a su máquina.
 5. El colaborador puede ahora hacer cambios en la versión clonada del repositorio del dueño, en la misma forma en que se hacían previamente.
 6. Luego enviar los cambios hacia el repositorio del dueño en GitHub haciendo push.
+
+
+_Si tiene algun problema, avisen a los instructores._
 
 ---
 
@@ -519,71 +497,21 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 
 ---
 
-# ¿Cómo colaborar si no sos un colaborador directo?
-
----
-
-# ¿Cómo colaborar?
-
-<div class="r-stack">
-<img class="fragment current-visible" src="images/contribute-github-1.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-2.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-3.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-4.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-5.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-6.svg" style="width: 80vw">
-</div>
-
----
-
-# Work flow
-
-<div class="r-stack">
-<!-- <img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt=""> -->
-<img class="fragment current-visible" data-fragment-index="0" src="images/git-repo-2.svg" alt="">
-<img class="fragment current-visible" src="images/git-repo-3.svg" alt="">
-<img class="fragment current-visible" src="images/git-repo-4.svg" alt="">
-<img class="fragment current-visible" src="images/git-repo-5.svg" alt="">
-<img class="fragment current-visible" src="images/git-repo-6.svg" alt="">
-<!-- <img class="fragment" src="images/git-repo-7.svg" alt=""> -->
-</div
-
----
-
-Ejercicios
-
----
-
-## 1. Haga un pull request
-
-Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
-
-1. Descargue el repositorio **intro-git-2021** usando el comando `clone`.    
-2. Haga un **Fork**  de **intro-git-2021** desde GitHub.
-3. Agregue su fork como remoto con el comando `git remote add`.
-4. Cree una nueva rama llamada `agrega-su_nombre` con `git switch --create`.
-5. Agregue su nombre en el archivo `participantes.txt` y haga un commit.
-6. Suba los cambios a su fork con `git push`.
-7. Abra un Pull Request  en en repositorio `intro-git-2021`.
-
----
-
 # Consejos y recomendaciones
 
-- Contribuciones != Código
-- Código de Conducta
-- Licencia de Software
-- Canales de comunicación
-- No esperes para usarlo
-    * Lee 
-    * Pregunta 
-    * Usalo para cualquier proyecto que tengas. 
+- No esperes para usarlo. 
+- Usalo para cualquier proyecto que tengas. 
+- Lee 
+- Pregunta 
 
 ---
 
-# Contacto
+# Contactos
 
-<div>
+<div class="container">
+<div class="column">
+
+## Agustina
 
 <ul class="fa-ul" style="">
 <li><i class="fa-li fa fa-envelope"></i>
@@ -593,7 +521,7 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 </li>
 <li><i class="fa-li fab fa-twitter"></i>
 
-[@saguspesce](https://twitter.com/aguspesce)
+[@aguspesce](https://twitter.com/aguspesce)
 
 </li>
 <li><i class="fa-li fa fa-globe-americas"></i>
@@ -602,7 +530,30 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 
 </li>
 </ul>
+</div>
 
+<div class="column">
+
+## Mariana
+
+<ul class="fa-ul" style="">
+<li><i class="fa-li fa fa-envelope"></i>
+
+[mariana22@ciencias.unam.mx](mailto:mariana22@ciencias.unam.mx)
+
+</li>
+<li><i class="fa-li fab fa-twitter"></i>
+
+[@mariana_zemog](https://twitter.com/mariana_zemog)
+
+</li>
+<li><i class="fa-li fa fa-globe-americas"></i>
+
+[@MGomezN](https://github.com/MGomezN)
+
+</li>
+</ul>
+</div>
 </div>
 
 ---
@@ -622,5 +573,133 @@ El contenido de esta presentación está disponible bajo
 <!-- .slide: class="slide-title" -->
 
 # Muchas gracias
+
+---
+
+# Colaboración usando ramas
+
+---
+
+## ¿Cómo colaborar?
+
+<div class="r-stack">
+<img class="fragment current-visible" src="images/contribute-github-1.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-2.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-3.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-4.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-5.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-6.svg" style="width: 80vw">
+</div>
+
+---
+
+## Work flow
+
+<div class="r-stack">
+<!-- <img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt=""> -->
+<img class="fragment current-visible" data-fragment-index="0" src="images/git-repo-2.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-3.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-4.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-5.svg" alt="">
+<img class="fragment current-visible" src="images/git-repo-6.svg" alt="">
+<!-- <img class="fragment" src="images/git-repo-7.svg" alt=""> -->
+</div
+
+---
+
+## Ejercicio
+
+---
+
+### 1. Haga un pull request
+
+Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
+
+1. Descargue el repositorio **intro-git-2021** usando el comando `clone`.    
+2. Haga un **Fork**  de **intro-git-2021** desde GitHub.
+3. Agregue su fork como remoto con el comando `git remote add`.
+4. Cree una nueva rama llamada `agrega-su_nombre` con `git switch --create`.
+5. Agregue su nombre en el archivo `participantes.txt` y haga un commit.
+6. Suba los cambios a su fork con `git push`.
+7. Abra un _Pull Request_ en el repositorio `intro-git-2021`.
+
+---
+
+## Consejos y recomendaciones
+
+- Contribuciones != Código
+- Código de Conducta
+- Licencia de Software
+- Canales de comunicación
+
+---
+
+# Contactos
+
+<div class="container">
+<div class="column">
+
+## Agustina
+
+<ul class="fa-ul" style="">
+<li><i class="fa-li fa fa-envelope"></i>
+
+[pesce.agustina@gmail.com](mailto:pesce.agustina@gmail.com)
+
+</li>
+<li><i class="fa-li fab fa-twitter"></i>
+
+[@aguspesce](https://twitter.com/aguspesce)
+
+</li>
+<li><i class="fa-li fa fa-globe-americas"></i>
+
+[aguspesce.github.io](https://aguspesce.github.io)
+
+</li>
+</ul>
+</div>
+
+<div class="column">
+
+## Mariana
+
+<ul class="fa-ul" style="">
+<li><i class="fa-li fa fa-envelope"></i>
+
+[mariana22@ciencias.unam.mx](mailto:mariana22@ciencias.unam.mx)
+
+</li>
+<li><i class="fa-li fab fa-twitter"></i>
+
+[@mariana_zemog](https://twitter.com/mariana_zemog)
+
+</li>
+<li><i class="fa-li fa fa-globe-americas"></i>
+
+[@MGomezN](https://github.com/MGomezN)
+
+</li>
+</ul>
+</div>
+</div>
+
+---
+
+<!-- .slide: class="slide-license" -->
+
+<p class="license-icons">
+<i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
+</p>
+
+El contenido de esta presentación está disponible bajo
+
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+<!-- .slide: class="slide-title" -->
+
+# Muchas gracias otra vez
 
 ---
