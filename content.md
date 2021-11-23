@@ -62,7 +62,7 @@ No es necesario tener experiencia en el uso de la terminal
 </div>
 <div class="column">
 
-- Cómo ignorar cosas
+- Cómo ignorar determinados archivos
 - Repositorios remotos en GitHub
 - Trabajos en colaboración
 - Conflictos
