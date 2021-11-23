@@ -394,7 +394,7 @@ Creemos un repositorio...
 
 # Subir cambios a GitHub
 
-Pero lo que quiero hacer es: 
+"Empujemos" los cambios del repositorio local al remoto:
 
 <img class="fragment current-visible" src="images/github-repo-after-first-push.svg" alt="" style="width: 50%">
 
