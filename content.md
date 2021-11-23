@@ -407,7 +407,7 @@ Conectemos los dos repositorios...
 ## Comandos de git
 
 - `git remote add origin URL`: agrega la dirección de repositorio de GitHub bajo el nombre `origin`.
-- `git remote -v`: verifica que esté bien configurado.    
+- `git remote -v`: lista los repositorios remotos que agregamos.
 - `git push origin main`: sube los cambios al repositorio de GitHub.
 
 ---
