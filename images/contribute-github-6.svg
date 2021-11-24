@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="493.29663mm"
-   height="183.8349mm"
-   viewBox="0 0 493.29663 183.8349"
+   width="552.60889mm"
+   height="198.27852mm"
+   viewBox="0 0 552.60889 198.27852"
    version="1.1"
    id="svg112"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="contribute-github-6.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -2527,9 +2527,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="819.23371"
-     inkscape:cy="629.32503"
+     inkscape:zoom="1"
+     inkscape:cx="1533.5"
+     inkscape:cy="762.5"
      inkscape:document-units="mm"
      inkscape:current-layer="g29208"
      inkscape:document-rotation="0"
@@ -2540,7 +2540,11 @@
      inkscape:window-x="6"
      inkscape:window-y="40"
      inkscape:window-maximized="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata109">
     <rdf:RDF>
@@ -2554,12 +2558,13 @@
   </metadata>
   <g
      style="display:inline"
-     transform="translate(792.026,532.70898)"
+     transform="translate(791.57332,532.70898)"
      id="g29208"
      inkscape:groupmode="layer"
      inkscape:label="Layer 6">
     <g
-       id="g29088">
+       id="g29088"
+       transform="translate(277.0876,14.443626)">
       <g
          id="g29060">
         <rect
@@ -2576,11 +2581,11 @@
         <text
            xml:space="preserve"
            id="text29066"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#fafafa;fill-opacity:1;stroke:none;shape-inside:url(#rect29210)"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29210);fill:#fafafa;fill-opacity:1;stroke:none"
            transform="translate(-816.14668,-415.2373)"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11899">intro-to-git-2021 </tspan></text>
+             id="tspan3803">intro-to-git-2021 </tspan></text>
         <text
            transform="translate(-791.31718,-400.40428)"
            style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29212);fill:#fafafa;fill-opacity:1;stroke:none"
@@ -2588,7 +2593,7 @@
            xml:space="preserve"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11901">main</tspan></text>
+             id="tspan3805">main</tspan></text>
         <path
            style="fill:none;stroke:#fafafa;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8870-7)"
            d="m -739.39014,-382.66892 v 8.70083 l 8.95004,-0.14578"
@@ -2606,7 +2611,7 @@
            xml:space="preserve"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11903">agrega-agusi</tspan></text>
+             id="tspan3807">agrega-agus</tspan></text>
         <path
            style="fill:none;stroke:#fafafa;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8880-6)"
            d="m -739.39014,-370.79307 v 8.70083 l 8.95004,-0.14578"
@@ -2666,14 +2671,14 @@
         </g>
         <text
            transform="translate(-101.66571,-3.687375)"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#fafafa;fill-opacity:1;stroke:none;shape-inside:url(#rect29216)"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29216);fill:#fafafa;fill-opacity:1;stroke:none"
            id="text29116"
            xml:space="preserve"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11907"><tspan
+             id="tspan3811"><tspan
    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-   id="tspan11905">GeoLatinas</tspan>/intro-to-git-2021 </tspan></text>
+   id="tspan3809">GeoLatinas</tspan>/intro-to-git-2021 </tspan></text>
         <text
            xml:space="preserve"
            id="text29122"
@@ -2681,7 +2686,7 @@
            transform="translate(-76.836218,11.14565)"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11909">main</tspan></text>
+             id="tspan3813">main</tspan></text>
         <path
            sodipodi:nodetypes="ccc"
            id="path29124"
@@ -2692,7 +2697,7 @@
     <path
        sodipodi:nodetypes="cc"
        style="fill:none;stroke:#ff8300;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8850-7)"
-       d="m -690.4225,-434.57063 v 20.15247"
+       d="m -406.8483,-420.127 v 20.15247"
        id="path29130" />
     <path
        sodipodi:nodetypes="cccc"
@@ -2706,12 +2711,12 @@
        transform="translate(-660.45747,-554.35177)"><tspan
          x="66.306641"
          y="32.363923"
-         id="tspan11911">Pull Request</tspan></text>
+         id="tspan3815">Pull Request</tspan></text>
     <path
        id="path29142"
-       d="m -567.86965,-375.54553 h 161.02135 v -39.53489"
+       d="m -294.64963,-361.07079 53.8982,-1.10122 1.02906,-97.36241 -53.79266,-0.39875"
        style="fill:none;stroke:#ff8300;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker12751)"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="cccc" />
     <g
        transform="translate(277.0876,-153.9837)"
        id="g29200">
@@ -2764,24 +2769,24 @@
         </g>
         <text
            transform="translate(-817.35201,-335.29636)"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#fafafa;fill-opacity:1;stroke:none;shape-inside:url(#rect29226)"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29226);fill:#fafafa;fill-opacity:1;stroke:none"
            id="text29174"
            xml:space="preserve"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11915"><tspan
+             id="tspan3819"><tspan
    style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
-   id="tspan11913">aguspesce</tspan>/intro-to-git-2021 </tspan></text>
+   id="tspan3817">aguspesce</tspan>/intro-to-git-2021 </tspan></text>
         <text
            xml:space="preserve"
            id="text29180"
-           style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#aaaaaa;fill-opacity:1;stroke:none;shape-inside:url(#rect29228)"
+           style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect29228);fill:#aaaaaa;fill-opacity:1;stroke:none"
            transform="translate(-817.35201,-345.8797)"><tspan
              x="66.306641"
              y="26.745669"
-             id="tspan11919"><tspan
+             id="tspan3823"><tspan
                style="shape-inside:url(#rect8802-5)"
-               id="tspan11917">Fork de GeoLatinas/intro-to-git-2021 </tspan></tspan></text>
+               id="tspan3821">Fork de GeoLatinas/intro-to-git-2021 </tspan></tspan></text>
         <text
            xml:space="preserve"
            id="text29186"
@@ -2789,7 +2794,7 @@
            transform="translate(-791.31718,-320.96309)"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11921">main</tspan></text>
+             id="tspan3825">main</tspan></text>
         <path
            sodipodi:nodetypes="ccc"
            id="path29188"
@@ -2802,7 +2807,7 @@
            transform="translate(-791.31719,-309.08724)"><tspan
              x="66.306641"
              y="29.242646"
-             id="tspan11923">agrega-agus</tspan></text>
+             id="tspan3827">agrega-agus</tspan></text>
         <path
            sodipodi:nodetypes="ccc"
            id="path29196"
