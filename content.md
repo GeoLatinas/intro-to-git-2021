@@ -1,6 +1,6 @@
 <!-- .slide: class="slide-title" -->
 
-# Introducción a Git y Github
+<h1 class="menu-title">Introducción a Git y Github</h1>
 
 ## [Agustina Pesce](https://aguspesce.github.io)<sup>1,2</sup> y [Mariana Gómez](https://github.com/MGomezN)<sup>3</sup>
 
@@ -18,7 +18,7 @@
 
 ---
 
-# Información
+<h1 class="menu-title"> Información </h1>
 
 - **Cuándo:** [Sábado 27 de noviembre 2021 de 15:00 a 19:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introduccion+a+Git&iso=20211204T12&p1=1078&ah=4)
 - **Notas colaborativas:** Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
@@ -27,7 +27,7 @@
 
 ---
 
-# Requisitos
+## Requisitos
 
 1. Terminal
 2. Instalar Git
@@ -39,7 +39,7 @@ No es necesario tener experiencia en el uso de la terminal
 
 ---
 
-# Objetivos
+<h1 class="menu-title"> Objetivos </h1>
 
 - Gestionar versiones con Git
 - Aplicar las mejores prácticas de Git
@@ -48,7 +48,7 @@ No es necesario tener experiencia en el uso de la terminal
 
 ---
 
-# Contenidos
+<h1 class="menu-title"> Contenidos </h1>
 
 <div class="container">
 <div class="column">
@@ -73,7 +73,7 @@ No es necesario tener experiencia en el uso de la terminal
 
 ---
 
-# Control Automatizado de Versiones
+<h1 class="menu-title"> Control Automatizado de Versiones </h1>
 
 ---
 
@@ -87,25 +87,25 @@ No es necesario tener experiencia en el uso de la terminal
 
 ---
 
-# Sistema de control de versiones
+## Sistema de control de versiones
 
 <img src="images/play-changes.svg" alt="" style="height: 85vh">
 
 ---
 
-# Sistema de control de versiones
+## Sistema de control de versiones
 
 <img src="images/versions.svg" alt="" style="height: 85vh">
 
 ---
 
-# Sistema de control de versiones
+## Sistema de control de versiones
 
 <img src="images/merge.svg" alt="" style="height: 85vh">
 
 ---
 
-# Sistema de control de versiones
+## Sistema de control de versiones
 
 - Realiza seguimiento de cambios o **commits**
 - Es como un _deshacer_ sin límites
@@ -122,7 +122,7 @@ posible?
 
 ---
 
-# Configurando git
+<h1 class="menu-title"> Configurando git </h1>
 
 ---
 
@@ -145,7 +145,7 @@ que usará `git`.
 
 ---
 
-# Creando un repositorio
+<h1 class="menu-title"> Creando un repositorio </h1>
 
 ---
 
@@ -164,7 +164,7 @@ que usará `git`.
 
 ---
 
-# Rastreando Cambios
+<h1 class="menu-title"> Rastreando Cambios </h1>
 
 ---
 
@@ -179,10 +179,8 @@ que usará `git`.
 - `git add`: añade uno o más archivos al **staging area**
 - `git commit`: registra los cambios de la **staging area** en un commit
 - `git log`: muestra un historial de cambios
-- `git diff`: muestras las diferencias entre el estado actual de los archivos
-    y la versión del commit más reciente
-- `git diff --staged`: muestra las diferencias entre el estado de los archivos
-    en el staging area y la versión del commit más reciente.
+- `git diff`: muestras las diferencias entre el estado actual de los archivos y la versión del commit más reciente
+- `git diff --staged`: muestra las diferencias entre el estado de los archivos en el staging area y la versión del commit más reciente.
 
 ---
 
@@ -190,28 +188,26 @@ que usará `git`.
 
 ---
 
-## 1. Haciendo Commit a Múltiples Archivos
+### 1. Haciendo Commit a Múltiples Archivos
 
 1. Agrega algún texto a `mars.txt` anotando tu decisión de considerar Venus como base.
-2. Crea un nuevo archivo `venus.txt` con tus pensamientos iniciales acerca de
-   Venus como base para tí y tus amigxs.
+2. Crea un nuevo archivo `venus.txt` con tus pensamientos iniciales acerca de Venus como base para tí y tus amigxs.
 3. Agrega los cambios de ambos archivos al **staging area**, y haz un **commit** de esos cambios.
 4. ¿Alguna duda?
 
 ---
 
-## 2. Repositorio bio
+### 2. Repositorio bio
 
 1. Crea un nuevo repositorio Git en tu computadora, llamado `bio`.
-2. Escribe una autobiografía de tres líneas en un archivo llamado `me.txt`, haz
-   **commit** de tus cambios.
+2. Escribe una autobiografía de tres líneas en un archivo llamado `me.txt`, haz **commit** de tus cambios.
 3. Modifica una línea, agrega una cuarta línea.
 4. Muestra las diferencias entre el estado actualizado y el original.
 5. ¿Alguna duda?
 
 ---
 
-# Explorando el historial
+<h1 class="menu-title"> Explorando el historial </h1>
 
 ---
 
@@ -224,8 +220,7 @@ que usará `git`.
 ## Comandos de git
 
 - `HEAD`: simboliza el commit más reciente.
-- `git diff HEAD~2`: nos muestra las diferencias respecto a los últimos
-    dos commits.
+- `git diff HEAD~2`: nos muestra las diferencias respecto a los últimos dos commits.
 - `git show HEAD~1`: nos muestra los cambios realizados por el penúltimo commit.
 - Podemos usar el identificador del commit en vez de `HEAD`.
 - `git checkout`: nos deja _visitar_ commits anteriores.
@@ -237,16 +232,14 @@ que usará `git`.
 
 ---
 
-## 1. Multiple choice
+### 1. Multiple choice
 
-Jennifer ha realizado cambios en el script en el que ha estado trabajando 
-durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el 
-script y ya no funciona.
+Jennifer ha realizado cambios en el script en el que ha estado trabajando durante semanas, y las modificaciones que hizo esta mañana “corrompieron” el script y ya no funciona.
 Por suerte, ha estado usando Git.
 
 ---
 
-## 1. Multiple choice
+### 1. Multiple choice
 
 Si Jennifer todavia no hizo ningún commit ni agrego los cambios al stage area:
 ¿Cuáles comandos le permitirán recuperar la última versión estable de su script llamado script.py?
@@ -276,7 +269,7 @@ Si Jennifer todavia no hizo ningún commit ni agrego los cambios al stage area:
 
 ---
 
-## 2. Multiple choice
+### 2. Multiple choice
 
 ¿Cuál es el output de `cat venus.txt` al final de este conjunto de comandos?
 
@@ -312,7 +305,7 @@ Venus is too hot to be suitable as a base
 
 ---
 
-## 3. Deshacer cambios añadidos al stage area
+### 3. Deshacer cambios añadidos al stage area
 
 `git checkout` puede usarse para restaurar un commit anterior cuando cambios
 no marcados se han hecho, pero ¿También funcionará para los cambios que se
@@ -324,7 +317,7 @@ han marcado pero no se han vuelto un commit todavia?
 
 ---
 
-# Ignorar archivos
+<h1 class="menu-title"> Ignorar archivos </h1>
 
 ---
 
@@ -337,7 +330,7 @@ Debemos crear un **.gitignore**
 
 ---
 
-# Repositorios remotos en GitHub
+<h1 class="menu-title"> Repositorios remotos en GitHub <h1>
 
 ---
 
@@ -354,7 +347,7 @@ Debemos crear un **.gitignore**
 
 ---
 
-# Crear un repositorio en GitHub
+<h1 class="menu-title"> Crear un repositorio en GitHub </h1>
 
 <div class="r-stack">
 <img class="fragment current-visible" src="images/github-create-repo-01.png" alt="" style="width: 50%">
@@ -369,7 +362,7 @@ Debemos crear un **.gitignore**
 
 ---
 
-# Subir cambios a GitHub
+<h1 class="menu-title"> Subir cambios a GitHub </h1>
 
 "Empujemos" los cambios del repositorio local al remoto:
 
@@ -385,33 +378,40 @@ Debemos crear un **.gitignore**
 
 ---
 
-# 1. Ejercicio
+## 1. Ejercicio
 
-En esta lección hemos introducido el comando `git push`. 
+En esta lección hemos introducido el comando `git push`.
 
 ¿En qué se diferencia `git push` de `git commit`?
 
 ---
 
 
+<h1 class="menu-title"> Trabajos en colaboración </h1>
+
+---
+
 # Trabajos en colaboración
-
----
-
-## Trabajo colaborativo
-
-Para el siguiente paso, formaremos parejas.
-Una persona será el “dueño” y la otra el “colaborador”. 
-El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño".
-Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
-
----
-
-
-## Agregar un colaborador
 
 <img class="fragment current-visible" src="images/github-repo-setting.png" alt="" style="width: 50%">
 </div>
+
+---
+
+## Comandos de Git
+
+- `git clone [url]`: Clona un repositorio contenido en GutHub.
+- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
+- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
+
+---
+
+## 1. Ejercicio de trabajo colaborativo
+
+Para el siguiente paso, formaremos parejas.
+Una persona será el “dueño” y la otra el “colaborador”.
+El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño".
+Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
 
 ---
 
@@ -424,20 +424,11 @@ Vamos a cambiar roles al final, de modo que ambas personas puedan participar com
 5. El colaborador puede ahora hacer cambios en la versión clonada del repositorio del dueño, en la misma forma en que se hacían previamente.
 6. Luego enviar los cambios hacia el repositorio del dueño en GitHub haciendo push.
 
-
 _Si tiene algun problema, avisen a los instructores._
 
 ---
 
-## Comandos de Git
-
-- `git clone [url]`: Clona un repositorio contenido en GutHub.
-- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
-- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
-
----
-
-# Conflictos
+<h1 class="menu-title"> Conflictos </h1>
 
 ---
 
@@ -461,7 +452,7 @@ git add
 1. Realizar un commit:
 ```
 git commit -m "[mensaje]"
-```        
+```
 1. Cargar las actualizaciones a GitHub:
 ```
 git push origin main
@@ -475,7 +466,7 @@ _Commits pequeños son más fáciles de leer y revisar._
 
 ---
 
-## Consejos para trabajos colaborativos 
+## Consejos para trabajos colaborativos
 
 
 **La resolución de conflictos cuesta tiempo y esfuerzo**
@@ -494,16 +485,16 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 
 * Aclarar con tus colaboradores quién es responsable de cada área.
 * Discutir con ellos en qué orden deben realizarse las tareas para que no trabajen simultáneamente en las mismas líneas.
-* Si los conflictos son de estilo (e.g. tabulaciones vs. espacios), establecer una convención que rija el proyecto y utilizar herramientas de estilo de código.
+* Si los conflictos son de estilo (e.g. fabulaciones vs. espacios), establecer una convención que rija el proyecto y utilizar herramientas de estilo de código.
 
 ---
 
 # Consejos y recomendaciones
 
-- No esperes para usarlo. 
-- Usalo para cualquier proyecto que tengas. 
-- Lee 
-- Pregunta 
+- No esperes para usarlo
+- Usalo para cualquier proyecto que tengas
+- Lee
+- Pregunta
 
 ---
 
@@ -577,11 +568,11 @@ El contenido de esta presentación está disponible bajo
 
 ---
 
-# Colaboración usando ramas
+<h1 class="menu-title"> Colaboración usando ramas </h1>
 
 ---
 
-## ¿Porqué son utiles las ramas?
+## ¿Por qué son útiles las ramas?
 
 <div class="r-stack">
 <!-- <img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt=""> -->
@@ -616,12 +607,13 @@ El contenido de esta presentación está disponible bajo
 
 Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
 
-1. Haga un **Fork**  de **intro-git-2021** desde GitHub.
-2. Descargue el repositorio **intro-git-2021** usando el comando `clone`.    
-3. Verifique que la url de su fork este como origin usando `git remote -v`.
-4. Cree una nueva rama llamada `agrega-su_nombre` con `git checkout -b`.
-5. Agregue su nombre en el archivo `participantes.txt`. Confirme y suba los cambios a su repositorio "forqueado".
-6. Vaya a su cuenta de GitHub y en el repositorio "forqueado" busque un botón verde para crear el _Pull Request_. Haz clic en él y sigue las instrucciones.
+1. Descargue el repositorio **intro-git-2021** usando el comando `clone`.
+2. Haga un **Fork**  de **intro-git-2021** desde GitHub.
+3. Agregue su fork como remoto con el comando `git remote add`.
+4. Cree una nueva rama llamada `agrega-su_nombre` con `git switch --create`.
+5. Agregue su nombre en el archivo `participantes.txt` y haga un commit.
+6. Suba los cambios a su fork con `git push`.
+7. Abra un _Pull Request_ en el repositorio `intro-git-2021`.
 
 ---
 
@@ -634,7 +626,7 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 
 ---
 
-# Contactos
+<h1 class="menu-title"> Contactos </h1>
 
 <div class="container">
 <div class="column">
