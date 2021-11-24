@@ -5,7 +5,7 @@
    viewBox="0 0 308.74222 132.68198"
    version="1.1"
    id="svg8"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="git-repo-6.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -469,9 +469,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90509668"
-     inkscape:cx="1000.4456"
-     inkscape:cy="441.38931"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="849.58879"
+     inkscape:cy="387.84807"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      inkscape:document-rotation="0"
@@ -514,9 +514,9 @@
          xml:space="preserve"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan2151"><tspan
+           id="tspan4671"><tspan
              style="fill:#fafafa"
-             id="tspan2149">merge</tspan></tspan></text>
+             id="tspan4669">merge</tspan></tspan></text>
       <text
          transform="translate(-189.12059,323.47278)"
          style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2792-6);fill:#f1a340;fill-opacity:1;stroke:none"
@@ -524,7 +524,7 @@
          xml:space="preserve"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan2153">main</tspan></text>
+           id="tspan4673">main</tspan></text>
       <g
          id="g2786"
          transform="translate(-586.24255,449.51243)">
@@ -621,7 +621,7 @@
          transform="translate(-225.68965,402.04836)"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan2155">agrega-agus</tspan></text>
+           id="tspan4675">fix</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          style="fill:none;stroke:#fafafa;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2806)"

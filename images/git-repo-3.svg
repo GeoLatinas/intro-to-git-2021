@@ -5,7 +5,7 @@
    viewBox="0 0 308.74222 132.68198"
    version="1.1"
    id="svg8"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="git-repo-3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -469,9 +469,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="1039.8438"
-     inkscape:cy="832.03125"
+     inkscape:zoom="1.28"
+     inkscape:cx="836.32813"
+     inkscape:cy="688.67188"
      inkscape:document-units="mm"
      inkscape:current-layer="layer6"
      inkscape:document-rotation="0"
@@ -514,7 +514,7 @@
          xml:space="preserve"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan2819">main</tspan></text>
+           id="tspan3147">main</tspan></text>
       <circle
          r="10.014743"
          cy="622.87573"
@@ -569,7 +569,7 @@
          transform="translate(-265.22057,-7.0320633)"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan2821">agrega-agus</tspan></text>
+           id="tspan3149">fix</tspan></text>
       <g
          id="g3317"
          transform="translate(0,-3.293051)">
@@ -580,9 +580,9 @@
            xml:space="preserve"><tspan
              x="-107.67578"
              y="692.9772"
-             id="tspan2825"><tspan
+             id="tspan3153"><tspan
                style="fill:#fafafa"
-               id="tspan2823">nueva rama</tspan></tspan></text>
+               id="tspan3151">nueva rama</tspan></tspan></text>
         <path
            sodipodi:nodetypes="cc"
            style="fill:none;stroke:#fafafa;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2353)"

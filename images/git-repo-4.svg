@@ -5,7 +5,7 @@
    viewBox="0 0 308.74222 132.68198"
    version="1.1"
    id="svg8"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="git-repo-4.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -454,9 +454,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="575"
-     inkscape:cy="55"
+     inkscape:zoom="1"
+     inkscape:cx="618.5"
+     inkscape:cy="599.5"
      inkscape:document-units="mm"
      inkscape:current-layer="layer5"
      inkscape:document-rotation="0"
@@ -499,7 +499,7 @@
          xml:space="preserve"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan4671">main</tspan></text>
+           id="tspan2283">main</tspan></text>
       <g
          id="g2648"
          transform="translate(-582.22233,176.27182)">
@@ -568,7 +568,7 @@
          transform="translate(-221.66943,128.80775)"><tspan
            x="-107.67578"
            y="692.9772"
-           id="tspan4673">agrega-agus</tspan></text>
+           id="tspan2285">fix</tspan></text>
     </g>
   </g>
 </svg>
