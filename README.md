@@ -14,7 +14,7 @@ Dónde | Zoom (link en el canal de Slack `#coding-group`)
 Inscripción | [formulario](http://bit.ly/Git_Github_GeoLatinas)
 Notas colaborativas | Etherpad: https://pad.disroot.org/p/2o7i0afvxpe8jcdy
 Material | https://swcarpentry.github.io/git-novice-es
-Diapositivas | Próximamente
+Diapositivas | https://geolatinas.github.io/intro-to-git-2021/
 
 ## Acerca del taller
 
