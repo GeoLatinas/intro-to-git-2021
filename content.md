@@ -398,27 +398,20 @@ En esta lección hemos introducido el comando `git push`.
 
 ---
 
-# Trabajos en colaboración
-
-<img class="fragment current-visible" src="images/github-repo-setting.png" alt="" style="width: 50%">
-</div>
-
----
-
-## Comandos de Git
-
-- `git clone [url]`: Clona un repositorio contenido en GutHub.
-- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
-- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
-
----
-
-## 1. Ejercicio de trabajo colaborativo
+## Trabajo colaborativo
 
 Para el siguiente paso, formaremos parejas.
 Una persona será el “dueño” y la otra el “colaborador”. 
 El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño".
 Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
+
+---
+
+
+## Agregar un colaborador
+
+<img class="fragment current-visible" src="images/github-repo-setting.png" alt="" style="width: 50%">
+</div>
 
 ---
 
@@ -433,6 +426,14 @@ Vamos a cambiar roles al final, de modo que ambas personas puedan participar com
 
 
 _Si tiene algun problema, avisen a los instructores._
+
+---
+
+## Comandos de Git
+
+- `git clone [url]`: Clona un repositorio contenido en GutHub.
+- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
+- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
 
 ---
 
@@ -580,20 +581,7 @@ El contenido de esta presentación está disponible bajo
 
 ---
 
-## ¿Cómo colaborar?
-
-<div class="r-stack">
-<img class="fragment current-visible" src="images/contribute-github-1.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-2.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-3.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-4.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-5.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-6.svg" style="width: 80vw">
-</div>
-
----
-
-## Work flow
+## ¿Porqué son utiles las ramas?
 
 <div class="r-stack">
 <!-- <img class="fragment fade-out" data-fragment-index="0" src="images/git-repo-1.svg" alt=""> -->
@@ -607,6 +595,19 @@ El contenido de esta presentación está disponible bajo
 
 ---
 
+## ¿Cómo colaborar?
+
+<div class="r-stack">
+<img class="fragment current-visible" src="images/contribute-github-1.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-2-nuevo.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-3-nuevo.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-4.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-5.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-6.svg" style="width: 80vw">
+</div>
+
+---
+
 ## Ejercicio
 
 ---
@@ -615,13 +616,12 @@ El contenido de esta presentación está disponible bajo
 
 Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `GeoLatinas/intro-git-2021`.
 
-1. Descargue el repositorio **intro-git-2021** usando el comando `clone`.    
-2. Haga un **Fork**  de **intro-git-2021** desde GitHub.
-3. Agregue su fork como remoto con el comando `git remote add`.
-4. Cree una nueva rama llamada `agrega-su_nombre` con `git switch --create`.
-5. Agregue su nombre en el archivo `participantes.txt` y haga un commit.
-6. Suba los cambios a su fork con `git push`.
-7. Abra un _Pull Request_ en el repositorio `intro-git-2021`.
+1. Haga un **Fork**  de **intro-git-2021** desde GitHub.
+2. Descargue el repositorio **intro-git-2021** usando el comando `clone`.    
+3. Verifique que la url de su fork este como origin usando `git remote -v`.
+4. Cree una nueva rama llamada `agrega-su_nombre` con `git checkout -b`.
+5. Agregue su nombre en el archivo `participantes.txt`. Confirme y suba los cambios a su repositorio "forqueado".
+6. Vaya a su cuenta de GitHub y en el repositorio "forqueado" busque un botón verde para crear el _Pull Request_. Haz clic en él y sigue las instrucciones.
 
 ---
 
