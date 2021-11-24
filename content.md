@@ -498,7 +498,7 @@ Los conflictos también **pueden ser minimizados con estrategias de administraci
 
 ---
 
-<h1 class="menu-title"> Contactos </h1>
+# Contactos
 
 <div class="container">
 <div class="column">
@@ -626,7 +626,7 @@ Agregue su nombre en el archivo `practica/participantes.txt` en el repositorio `
 
 ---
 
-# Contactos
+<h1 class="menu-title"> Contactos </h1>
 
 <div class="container">
 <div class="column">
