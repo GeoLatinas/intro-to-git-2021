@@ -398,27 +398,20 @@ En esta lección hemos introducido el comando `git push`.
 
 ---
 
-# Trabajos en colaboración
-
-<img class="fragment current-visible" src="images/github-repo-setting.png" alt="" style="width: 50%">
-</div>
-
----
-
-## Comandos de Git
-
-- `git clone [url]`: Clona un repositorio contenido en GutHub.
-- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
-- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
-
----
-
-## 1. Ejercicio de trabajo colaborativo
+## Trabajo colaborativo
 
 Para el siguiente paso, formaremos parejas.
 Una persona será el “dueño” y la otra el “colaborador”. 
 El objetivo es que el "colaborador" agregue cambios al repositorio del "dueño".
 Vamos a cambiar roles al final, de modo que ambas personas puedan participar como dueño y colaborador
+
+---
+
+
+## Agregar un colaborador
+
+<img class="fragment current-visible" src="images/github-repo-setting.png" alt="" style="width: 50%">
+</div>
 
 ---
 
@@ -433,6 +426,14 @@ Vamos a cambiar roles al final, de modo que ambas personas puedan participar com
 
 
 _Si tiene algun problema, avisen a los instructores._
+
+---
+
+## Comandos de Git
+
+- `git clone [url]`: Clona un repositorio contenido en GutHub.
+- `git push origin main`: Envia los cambios hacia el repositorio de GitHub.
+- `git pull`: Descargar los cambios hechos por el colaborador desde GitHub.
 
 ---
 
