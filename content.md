@@ -599,8 +599,8 @@ El contenido de esta presentación está disponible bajo
 
 <div class="r-stack">
 <img class="fragment current-visible" src="images/contribute-github-1.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-2-nuevo.svg" style="width: 80vw">
-<img class="fragment current-visible" src="images/contribute-github-3-nuevo.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-2.svg" style="width: 80vw">
+<img class="fragment current-visible" src="images/contribute-github-3.svg" style="width: 80vw">
 <img class="fragment current-visible" src="images/contribute-github-4.svg" style="width: 80vw">
 <img class="fragment current-visible" src="images/contribute-github-5.svg" style="width: 80vw">
 <img class="fragment current-visible" src="images/contribute-github-6.svg" style="width: 80vw">
